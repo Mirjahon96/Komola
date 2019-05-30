@@ -1,0 +1,150 @@
+/* Header: Showcase */
+#showcase {
+  height: 70vh;
+}
+
+#showcase .showcase-content {
+  position: relative;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 1.7rem;
+}
+
+/* Navbar */
+#navbar {
+  flex-direction: column;
+  justify-items: center;
+}
+
+#navbar ul li a {
+  padding: 5px 5px;
+}
+
+#navbar .logo {
+  padding-top: 2rem;
+  display: block;
+}
+
+/* Utilities Classess */
+.heading-title {
+  padding: 2rem 14px;
+}
+
+/* Our Services */
+#section-services .heading-title {
+  margin-bottom: 2rem;
+}
+
+#section-services .services-content {
+  padding: 0;
+}
+
+#section-services .services-content .box p {
+  margin: 0 50px;
+}
+
+#section-services .services-box {
+  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Section: Pricing */
+#section-price .price-content {
+  padding: 0;
+}
+
+#section-price .price-content .price-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+#section-price .price-content .price-box .box {
+  padding: 0;
+}
+/* Pro Price */
+#section-price .price-content .price-box .box:nth-child(3) {
+  margin: 0;
+}
+
+/* LATEST PROJECTS: WORKS */
+#section-works .works-content ul {
+  display: flex;
+}
+
+#section-works .works-content ul li a {
+  padding: 5px 7px;
+}
+
+#section-works .works-content ul li:first-child {
+  margin-right: 0;
+}
+
+/* works */
+#section-works .works-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0;
+  justify-content: center;
+}
+
+#section-works .works-box .box {
+  padding: 1rem 0;
+}
+
+/* Section: TESTIMONIALS & SUBSCRIBE */
+#section-customers {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: #fff;
+}
+
+/* Slider */
+#section-customers .left-content {
+  max-width: 350px;
+  padding-top: 100px;
+}
+
+/* Right Content: Subscribe */
+#section-customers .subscribe-content {
+  height: 400px;
+}
+
+#section-customers .right-content {
+  padding-top: 100px;
+}
+
+/* Section: CONTACT */
+#section-contact .contact-content {
+  padding: 1rem 1rem;
+}
+
+#section-contact .contact-content input:not(:last-child) {
+  display: block;
+  width: 100%;
+}
+
+#section-contact .contact-content textarea {
+  width: 100%;
+  display: block;
+}
+
+#section-contact .contact-content input[type='submit'] {
+  padding: 10px 2.1rem;
+  margin-bottom: 2rem;
+}
+
+/* FOOTER */
+
+#main-footer .footer-content {
+  padding: 0;
+}
+
+#main-footer .footer-content .footer-boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
